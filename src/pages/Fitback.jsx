@@ -42,8 +42,8 @@ const Fitback = () => {
   }
 
   return (
-    <Box sx={{ flexGrow: 2 }}>
-      <Grid container spacing={2}>
+    <Box >
+      <Grid>
         <div className="form">
           <form onSubmit={handleSubmit}>
             <h2>Reach us out!</h2>
@@ -76,7 +76,7 @@ const Fitback = () => {
             </button>
           </form>
         </div>
-        <Grid div xs>
+        <Grid>
           <div className="map">
             <img src={Map} alt="map-pics" />
           </div>

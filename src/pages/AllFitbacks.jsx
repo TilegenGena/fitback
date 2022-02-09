@@ -15,7 +15,7 @@ const AllFitbacks = () => {
 
   useEffect(() => {
     getFitbacks();
-  }, []);
+  },[]);
 
   if (!fitbacks) {
     return <h2>loading...</h2>;
